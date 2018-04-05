@@ -1,7 +1,7 @@
 package 'tree' do
-	action :install
+  action :install
 end
 
 file '/etc/motd' do
-	content "Property of Juan Antonio Mosquera\n"
+  content "Property of Juan Antonio Mosquera\n"
 end
