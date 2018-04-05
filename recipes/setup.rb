@@ -3,5 +3,5 @@ package 'tree' do
 end
 
 file '/etc/motd' do
-	content "Property of Juan Antonio MosquerProperty of Juan Antonio Mosquera\n"
+	content "Property of Juan Antonio Mosquera\n"
 end
