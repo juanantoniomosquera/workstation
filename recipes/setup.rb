@@ -3,5 +3,10 @@ package 'tree' do
 end
 
 file '/etc/motd' do
-  content "Property of Juan Antonio Mosquera\n"
+  content "Property of Juan Antonio Mosquera
+  IPADDRESS: #{node['ipaddress']}
+  HOSTNAME : #{node['hostname']}
+  MEMORY : #{node['memory']['total']}
+  CPU : #{node['cpu']['0']['mhz']}
+  "
 end
